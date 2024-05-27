@@ -1,0 +1,13 @@
+include *.txt
+include *.md 
+include *.py
+recursive-include ./Loan_Classification/*
+
+include Loan_Classification/datasets/*.csv
+include Loan_Classification/trained_models/*.pkl
+include Loan_Classification/processing/*.py
+incude Loan_Classification/VERSION
+include ./tests/*
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
